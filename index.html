@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Todo List
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+        <script src="assets/js/lib/jquery-3.2.1.js" ></script>
+        <script src="assets/js/lib/bootstrap.min.js" ></script>
+      
+        
+    </head>
+    <body>
+        
+        <div class="container">
+                <h2>
+                        Todo List
+                    </h2>
+            <div class="row custom-row">
+                  
+                          
+                <input type="checkbox" class="toggle" id="select-all">
+                <input type="text" class="insert" placeholder="What needs to be done?" id="taskData">
+                                
+    
+                  
+                
+            </div>
+                <div class="row custom-row-2" id="actions">
+                    <div id="itemsLeft" class="col-lg-3">
+                        item left
+                    </div>
+                    <div class="col-lg-6">
+                            <button id="allTask" type="button" class="btn btn-xs custom-button custom-button-selected" onclick="showAllTasks()" >
+                                All
+                            </button>
+                            <button id="activeTask" type="button" class="btn btn-xs custom-button" onclick="showActiveTasks()">
+                                    Active
+                            </button>
+                            <button id="completedTask" type="button" class="btn btn-xs custom-button" onclick="showCompletedTasks()">
+                                    Completed
+                            </button>
+                    </div>
+                    <div class="col-lg-3">
+                            <button id="clearCompletedTasks" type="button" class="btn btn-xs custom-button-red" onclick="clearCompletedTasks()">
+                                    Clear Completed
+                            </button>
+                    </div>
+                </div>
+                
+                
+
+        </div>
+
+        <div  id="divdata" class="container custom-tasks">
+            <div class="row custom-padding">
+                    <div class="col-lg-1">
+                            <input type="checkbox" class="toggle"  >
+                    </div>
+                    <div class="col-lg-11 ">
+                        bshcbcbsuh
+                    </div>
+
+            </div>
+         
+
+        </div>
+    
+      
+        <link rel="stylesheet" href="assets/css/src/style.css">
+        <script src="assets/js/src/script.js" ></script>
+    </body>
+
+</html>
